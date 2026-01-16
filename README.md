@@ -30,6 +30,8 @@ whoami
 id
 cat /etc/passwd
 
+---
+
 ## Step 3: Examine and Modify File Permissions
 
 File permissions were inspected using:
@@ -44,6 +46,7 @@ sudo chown root:root testfile
 
 This demonstrated Linux access control and ownership management.
 
+---
 
 ## Step 4: Differentiate Between Root and Normal Users
 
