@@ -32,7 +32,7 @@ cat /etc/passwd
 
 ---
 
-## Step 3: Examine and Modify File Permissions
+**## Step 3: Examine and Modify File Permissions**
 
 File permissions were inspected using:
 
