@@ -29,7 +29,7 @@ The following commands were used to examine user information:
 whoami
 id
 cat /etc/passwd
-
+```
 ---
 
 **## Step 3: Examine and Modify File Permissions**
@@ -38,12 +38,12 @@ File permissions were inspected using:
 
 ```bash
 ls -l
-
+```
 Permissions and ownership were modified using:
-
+```
 chmod 700 testfile
 sudo chown root:root testfile
-
+```
 This demonstrated Linux access control and ownership management.
 
 ---
