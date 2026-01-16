@@ -32,7 +32,7 @@ cat /etc/passwd
 ```
 ---
 
-**## Step 3: Examine and Modify File Permissions**
+## Step 3: Examine and Modify File Permissions
 
 File permissions were inspected using:
 
@@ -51,42 +51,42 @@ This demonstrated Linux access control and ownership management.
 ## Step 4: Differentiate Between Root and Normal Users
 
 Root access was obtained temporarily using:
-
+```
 sudo su
-
+```
 The elevated session was exited safely using:
-
+```
 exit
-
+```
 This step showed why root access should be used cautiously.
 
 ## Step 5: Enable Firewall (UFW)
 
 Firewall status was checked and enabled using:
-
+```
 sudo ufw status
 sudo ufw enable
 sudo ufw allow ssh
-
+```
 This improved the system’s network security.
 
 ## Step 6: Monitor Running Processes and Services
 
 System processes and services were monitored using:
-
+```
 ps aux
 top
 systemctl list-units --type=service
-
+```
 This helped identify active processes and background services.
 
 ## Step 7: Disable Unnecessary Services
 
 Unused services were disabled to reduce the attack surface:
-
+```
 sudo systemctl stop bluetooth
 sudo systemctl disable bluetooth
-
+```
 
 ## Step 8: Operating System Hardening Best Practices
 
